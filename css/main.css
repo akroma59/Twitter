@@ -117,7 +117,39 @@ textarea {
 ~~~~~~~~ End Common Rules ~~~~~~~~~
 */
 
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
 
+
+.premiere {
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+.premiere p {
+    color: white;
+}
+
+.deuxieme {
+    height: 100%;
+    width: 50%;
+    background: white;
+}
+
+.deuxieme p {
+    color: black;
+}
+
+.troisieme {
+    background-color: white;
+    height: 11%;
+    width: 100%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
