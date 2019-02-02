@@ -132,8 +132,9 @@ a {
     height: 100%;
     width: 50%;
     background-color: #1da1f2;
-    background-image: url("https://files.slack.com/files-pri/T0731C51C-FD14YB543/twitter.jpg");
-    background-size: 100%;
+    background-size: 80%;
+    background-position: right;
+    background-repeat: no-repeat;
     text-align: justify;
     display: flex;
     justify-content: center;
